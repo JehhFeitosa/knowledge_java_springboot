@@ -13,8 +13,8 @@ import lombok.Setter;
  * de cada ambiente
  */
 
-@ConfigurationProperties
-@Configuration("spring.datasource")
+@Configuration
+@ConfigurationProperties("spring.datasource")
 @Getter
 @Setter
 public class DBConfiguration {
